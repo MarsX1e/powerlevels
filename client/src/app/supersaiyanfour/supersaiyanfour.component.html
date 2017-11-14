@@ -1,0 +1,7 @@
+<div [ngClass]="{power:true}">
+  <p>SuperSaiyonFourComponent</p>
+  <p>Power Level: {{power}}</p>
+  <h1 *ngIf="power>9000&&power<=20000">"Over 9000"</h1>
+  <h1 *ngIf="power>20000&&power<50000">"Superlative!"</h1>
+  <h1 *ngIf="power==50000">"The One"</h1>
+</div>
